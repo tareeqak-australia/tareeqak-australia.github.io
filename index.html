@@ -2,693 +2,89 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
-
-<meta name="google-site-verification" content="UzoNBCwEm7ynAkSndiPB_xDcKI1LnqT0lIVYfpWKp54">
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>طريقك إلى أستراليا | افهم خياراتك وابدأ من الطريق الصحيح</title>
-
-<meta name="description" content="طريقك إلى أستراليا منصة معلومات وتوجيه أولي تساعدك على فهم خيارات العمل والدراسة والحماية والبرامج الإنسانية والعائلة في أستراليا، مع الإحالة إلى المصادر الرسمية.">
-
-<meta name="keywords" content="أستراليا, الهجرة إلى أستراليا, العمل في أستراليا, الدراسة في أستراليا, الحماية في أستراليا, البرامج الإنسانية أستراليا, تأشيرات أستراليا">
-
-<meta name="robots" content="index, follow">
-
+<meta name="description" content="طريقك إلى أستراليا: أداة توجيه أولي تساعدك على استكشاف خيارات العمل والدراسة والحماية والعائلة والتحضير للتواصل بشأن حالتك.">
+<meta name="robots" content="index,follow">
+<meta name="google-site-verification" content="UzoNBCwEm7ynAkSndiPB_xDcKI1LnqT0lIVYfpWKp54">
+<title>طريقك إلى أستراليا | اكتشف مسارك</title>
 <style>
-*{box-sizing:border-box}
-
-html{scroll-behavior:smooth}
-
-body{
-margin:0;
-font-family:Arial,Tahoma,sans-serif;
-background:#f5f7fb;
-color:#172033;
-line-height:1.8
-}
-
-a{text-decoration:none}
-
-.container{
-width:min(1080px,calc(100% - 32px));
-margin:auto
-}
-
-.hero{
-background:
-linear-gradient(135deg,#0b2545 0%,#164e73 55%,#2379a9 100%);
-color:white;
-padding:70px 0 85px;
-position:relative;
-overflow:hidden
-}
-
-.hero:after{
-content:"";
-position:absolute;
-width:280px;
-height:280px;
-border-radius:50%;
-background:#ffffff12;
-left:-90px;
-top:-100px
-}
-
-.hero-content{
-position:relative;
-z-index:1;
-text-align:center
-}
-
-.flag{
-font-size:55px;
-margin-bottom:10px
-}
-
-.badge{
-display:inline-block;
-background:#ffffff18;
-border:1px solid #ffffff35;
-padding:7px 16px;
-border-radius:50px;
-font-size:14px;
-margin-bottom:18px
-}
-
-h1{
-font-size:clamp(34px,7vw,58px);
-line-height:1.2;
-margin:0 0 18px
-}
-
-.hero p{
-font-size:19px;
-max-width:760px;
-margin:0 auto 30px;
-color:#eef7ff
-}
-
-.buttons{
-display:flex;
-justify-content:center;
-gap:12px;
-flex-wrap:wrap
-}
-
-.btn{
-display:inline-block;
-padding:13px 24px;
-border-radius:12px;
-font-weight:bold;
-font-size:17px;
-transition:.2s
-}
-
-.btn-primary{
-background:#20b866;
-color:white
-}
-
-.btn-secondary{
-background:white;
-color:#164e73
-}
-
-.btn:hover{
-transform:translateY(-2px)
-}
-
-section{
-padding:55px 0
-}
-
-.section-title{
-text-align:center;
-margin-bottom:30px
-}
-
-.section-title h2{
-margin:0 0 8px;
-font-size:30px;
-color:#123f5d
-}
-
-.section-title p{
-margin:0;
-color:#667085
-}
-
-.card-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:16px
-}
-
-.card{
-background:white;
-padding:24px;
-border-radius:18px;
-box-shadow:0 7px 25px #1720330d;
-border:1px solid #e9edf3
-}
-
-.card-icon{
-font-size:35px;
-margin-bottom:8px
-}
-
-.card h3{
-margin:5px 0 8px;
-color:#164e73
-}
-
-.card p{
-margin:0;
-color:#667085
-}
-
-.path-section{
-background:#edf5fa
-}
-
-.path-card{
-background:white;
-border-radius:20px;
-padding:28px;
-box-shadow:0 8px 30px #17203310
-}
-
-.path-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
-gap:13px;
-margin-top:20px
-}
-
-.path{
-display:block;
-padding:18px;
-border:1px solid #dce7ef;
-border-radius:14px;
-color:#172033;
-background:#fafcfd;
-transition:.2s
-}
-
-.path:hover{
-border-color:#2379a9;
-transform:translateY(-2px)
-}
-
-.path strong{
-display:block;
-color:#164e73;
-font-size:18px;
-margin-bottom:4px
-}
-
-.steps{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:16px
-}
-
-.step{
-position:relative;
-background:white;
-padding:24px;
-border-radius:18px;
-border:1px solid #e9edf3
-}
-
-.number{
-width:38px;
-height:38px;
-display:flex;
-align-items:center;
-justify-content:center;
-border-radius:50%;
-background:#164e73;
-color:white;
-font-weight:bold;
-margin-bottom:12px
-}
-
-.notice{
-background:#fff8e6;
-border-right:5px solid #e1a500;
-padding:22px;
-border-radius:12px;
-color:#4b3b12
-}
-
-.sources{
-background:#102a43;
-color:white
-}
-
-.sources .section-title h2{
-color:white
-}
-
-.sources .section-title p{
-color:#d7e5ef
-}
-
-.source-list{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:14px
-}
-
-.source{
-background:#ffffff12;
-border:1px solid #ffffff20;
-padding:20px;
-border-radius:15px;
-color:white
-}
-
-.source strong{
-display:block;
-margin-bottom:5px
-}
-
-.faq{
-background:white;
-padding:20px;
-border-radius:14px;
-margin-bottom:10px;
-border:1px solid #e9edf3
-}
-
-.faq summary{
-cursor:pointer;
-font-weight:bold;
-color:#164e73
-}
-
-.contact{
-text-align:center;
-background:linear-gradient(135deg,#eaf7f0,#f4fbff)
-}
-
-.whatsapp{
-display:inline-block;
-background:#20b866;
-color:white;
-padding:15px 28px;
-border-radius:13px;
-font-weight:bold;
-font-size:18px;
-box-shadow:0 7px 20px #20b86635
-}
-
-footer{
-background:#0b1f33;
-color:#c9d5df;
-text-align:center;
-padding:30px 15px;
-font-size:14px
-}
-
-.footer-title{
-color:white;
-font-size:18px;
-font-weight:bold;
-margin-bottom:8px
-}
-
-.float-whatsapp{
-position:fixed;
-left:18px;
-bottom:18px;
-z-index:10;
-background:#20b866;
-color:white;
-padding:12px 18px;
-border-radius:50px;
-font-weight:bold;
-box-shadow:0 6px 22px #0003
-}
-
-@media(max-width:600px){
-.hero{padding:55px 0 65px}
-.hero p{font-size:17px}
-section{padding:42px 0}
-.card,.step{padding:20px}
-.float-whatsapp{left:12px;bottom:12px}
-}
+:root{--navy:#102a43;--blue:#1f5f8b;--green:#20b866;--ink:#172033;--muted:#5b6678;--paper:#f5f7fb;--line:#dce5ed;--pale:#f0f6fa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Tahoma,sans-serif;background:var(--paper);color:var(--ink);line-height:1.85}.container{max-width:1000px;margin:auto;padding:0 18px}.hero{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;padding:56px 18px 62px;text-align:center}.flag{font-size:46px}.hero h1{font-size:clamp(30px,5vw,44px);line-height:1.3;margin:8px 0 12px}.hero p{font-size:18px;max-width:720px;margin:0 auto 25px;color:#edf5fa}.btn{display:inline-block;border:0;background:var(--green);color:#fff;text-decoration:none;padding:12px 22px;border-radius:10px;font-weight:bold;font-size:16px;cursor:pointer;font-family:inherit;transition:transform .15s,opacity .15s}.btn:hover{opacity:.92;transform:translateY(-1px)}.btn.secondary{background:#eaf2f8;color:var(--navy);border:1px solid #d6e4ee}.btn.dark{background:var(--navy)}.nav{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:24px}.nav a{color:#fff;text-decoration:none;border:1px solid #ffffff55;border-radius:9px;padding:7px 12px;font-size:14px}main{padding:18px 0 30px}section{background:#fff;margin:22px auto;padding:28px;border-radius:16px;box-shadow:0 5px 20px #1720330d;scroll-margin-top:16px}h2{color:#164e73;margin:0 0 10px;font-size:25px}h3{margin:0 0 8px;color:#164e73}p{margin:8px 0 14px}.intro{color:var(--muted);margin-top:0}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}.card{background:var(--pale);border:1px solid #e3edf4;padding:19px;border-radius:12px;display:flex;flex-direction:column;align-items:flex-start;gap:7px}.card p{margin:0;color:var(--muted);font-size:15px}.card .btn{margin-top:auto}.icon{font-size:27px}.note{background:#fff6df;border-right:5px solid #e1a500;padding:15px;border-radius:8px}.tool{border:1px solid var(--line);border-radius:14px;padding:20px;background:#fbfdff}.progress{height:7px;background:#e5edf3;border-radius:99px;overflow:hidden;margin:10px 0 20px}.progress span{display:block;height:100%;width:0;background:var(--green);transition:width .2s}.question{margin:15px 0 20px}.question label,.question legend{font-weight:bold;display:block;margin-bottom:8px}.question input[type=text],.question input[type=number],.question select,.question textarea{width:100%;font:inherit;border:1px solid #cbd7e1;border-radius:9px;padding:11px;background:white;color:var(--ink)}.options{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:9px}.option{display:flex;align-items:flex-start;gap:9px;border:1px solid var(--line);padding:10px 12px;border-radius:9px;background:#fff;cursor:pointer}.option:has(input:checked){border-color:#2b8a62;background:#f0fbf5}.option input{margin-top:7px;accent-color:var(--green)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.hidden{display:none!important}.result{margin-top:20px;padding:20px;border:1px solid #cfe5d8;border-radius:12px;background:#f4fbf6}.result h3{color:#17633d}.result ul{padding-right:22px}.small{font-size:13px;color:var(--muted)}.faq details{border-bottom:1px solid var(--line);padding:13px 0}.faq summary{cursor:pointer;font-weight:bold;color:#164e73}.faq details p{color:var(--muted);margin-bottom:0}.source-list{display:flex;flex-wrap:wrap;gap:10px}.source-list a{color:#145b84;overflow-wrap:anywhere}.contact{text-align:center}.contact p{color:var(--muted)}footer{text-align:center;padding:24px 15px 70px;color:#667085;font-size:13px}.whatsapp{position:fixed;bottom:16px;left:16px;background:var(--green);color:#fff;text-decoration:none;padding:11px 16px;border-radius:50px;font-weight:bold;box-shadow:0 5px 18px #0003;z-index:5}.tag{display:inline-block;background:#e8f2f8;color:#164e73;border-radius:50px;padding:3px 10px;font-size:12px;font-weight:bold}.legal{font-size:13px;color:#596575}.backtop{display:inline-block;margin-top:12px;color:#145b84}@media(max-width:600px){.hero{padding:42px 15px}.hero p{font-size:16px}section{padding:20px 16px}.tool{padding:15px}.btn{width:100%;text-align:center}.actions .btn{width:auto;flex:1}.nav a{font-size:13px}.whatsapp{bottom:12px;left:12px}}
 </style>
 </head>
-
 <body>
-
-<header class="hero">
-<div class="container hero-content">
-
-<div class="flag">🇦🇺</div>
-
-<div class="badge">منصة معلومات وتوجيه أولي</div>
-
+<header class="hero" id="top"><div class="container">
+<div class="flag">🇦🇺</div><span class="tag">منصة معلومات وتوجيه أولي</span>
 <h1>طريقك إلى أستراليا</h1>
-
-<p>
-افهم خياراتك، تعرّف على المسارات الممكنة، وابدأ من المعلومات الصحيحة
-والمصادر الرسمية قبل اتخاذ أي خطوة.
-</p>
-
-<div class="buttons">
-<a class="btn btn-primary" href="#paths">اكتشف مسارك</a>
-<a class="btn btn-secondary" href="https://wa.me/963931488217?text=مرحباً، أريد الاستفسار عن الخيارات المتاحة لي في أستراليا">تواصل عبر واتساب</a>
-</div>
-
-</div>
-</header>
-
-
-<main>
-
-<section>
-<div class="container">
-
-<div class="section-title">
-<h2>ماذا ستجد هنا؟</h2>
-<p>نرتب لك الصورة حتى تعرف من أين تبدأ.</p>
-</div>
-
-<div class="card-grid">
-
-<div class="card">
-<div class="card-icon">🧭</div>
-<h3>فهم المسارات</h3>
-<p>تعرف على أنواع الخيارات التي يمكن أن تكون مرتبطة بوضعك وأهدافك.</p>
-</div>
-
-<div class="card">
-<div class="card-icon">📋</div>
-<h3>ترتيب المعلومات</h3>
-<p>تعرف على المعلومات والوثائق التي قد تحتاج إلى تجهيزها قبل البدء.</p>
-</div>
-
-<div class="card">
-<div class="card-icon">🔎</div>
-<h3>التحقق من المصادر</h3>
-<p>نوجّهك إلى المصادر الرسمية حتى تستطيع التحقق من الشروط الحالية.</p>
-</div>
-
-<div class="card">
-<div class="card-icon">💬</div>
-<h3>تواصل مباشر</h3>
-<p>إذا لم تعرف من أين تبدأ، يمكنك التواصل معنا لشرح وضعك بشكل أولي.</p>
-</div>
-
-</div>
-</div>
+<p>افهم خياراتك، تعرّف على المسارات التي تستحق البحث، وابدأ من المعلومات الصحيحة والمصادر الرسمية قبل اتخاذ أي خطوة.</p>
+<div class="actions" style="justify-content:center"><a class="btn" href="#assessment" data-goal="unsure">اكتشف مسارك مجانًا</a><a class="btn secondary" href="#paths">تعرّف على المسارات</a></div>
+<nav class="nav" aria-label="التنقل الرئيسي"><a href="#assessment">اكتشف مسارك</a><a href="#paths">المسارات</a><a href="#faq">الأسئلة الشائعة</a><a href="#sources">المصادر الرسمية</a><a href="#contact">تواصل معنا</a></nav>
+</div></header>
+<main class="container">
+<section><h2>ابدأ من وضعك أنت</h2><p class="intro">أجب عن أسئلة قصيرة لتحصل على توجيه أولي يساعدك على تحديد الموضوع الذي يستحق البحث. لا نبيعك وعدًا بالتأشيرة ولا نستبدل التحقق الرسمي.</p><div class="cards">
+<div class="card"><div class="icon">🧭</div><h3>توجيه بحسب حالتك</h3><p>الأسئلة والنتيجة تتغير بحسب هدفك ومعلوماتك الأساسية.</p></div>
+<div class="card"><div class="icon">📋</div><h3>نقاط تحتاج للتحقق</h3><p>نعرض لك المعلومات التي قد تحتاج إلى تجهيزها أو التأكد منها.</p></div>
+<div class="card"><div class="icon">🔗</div><h3>مصادر رسمية</h3><p>نوصلك إلى مواقع الحكومة الأسترالية بدل الاعتماد على الشائعات.</p></div>
+</div></section>
+<section id="paths"><h2>ما الطريق الذي تبحث عنه؟</h2><p class="intro">اختر قسمًا لبدء التقييم. كل زر يفتح الأسئلة المناسبة لهذا المسار.</p><div class="cards">
+<div class="card"><div class="icon">💼</div><h3>العمل</h3><p>المهنة، الخبرة، المؤهلات، اللغة، وعرض العمل.</p><button class="btn" type="button" data-goal="work">ابدأ تقييم العمل</button></div>
+<div class="card"><div class="icon">🎓</div><h3>الدراسة</h3><p>المستوى الدراسي، التخصص، الإنجليزية، والقدرة على تمويل الدراسة.</p><button class="btn" type="button" data-goal="study">ابدأ تقييم الدراسة</button></div>
+<div class="card"><div class="icon">🛡️</div><h3>الحماية والإنسانية</h3><p>تحديد ما إذا كان السؤال يتعلق بالحماية داخل أستراليا أو بالبرنامج الإنساني خارجها.</p><button class="btn" type="button" data-goal="humanitarian">ابدأ تقييم الحماية</button></div>
+<div class="card"><div class="icon">👨‍👩‍👧</div><h3>العائلة</h3><p>صلة القرابة، وضع القريب في أستراليا، والحالة العائلية.</p><button class="btn" type="button" data-goal="family">ابدأ تقييم العائلة</button></div>
+</div></section>
+<section id="assessment"><h2>اكتشف مسارك</h2><p class="intro">تقييم أولي مجاني. لن تُرسل إجاباتك إلى خادم؛ عند رغبتك بالتواصل، يمكنك اختيار إرسال ملخصها عبر واتساب بنفسك.</p>
+<div class="tool"><div id="wizard">
+<div class="progress" aria-label="تقدم الأسئلة"><span id="progressBar"></span></div>
+<div class="question" id="qGoal"><label for="goal">1. ما هدفك الأساسي؟</label><select id="goal"><option value="">اختر هدفك</option><option value="work">العمل</option><option value="study">الدراسة</option><option value="humanitarian">الحماية أو البرنامج الإنساني</option><option value="family">العائلة أو لمّ الشمل</option><option value="unsure">لست متأكدًا</option></select></div>
+<div class="question"><label for="location">2. أين تقيم حاليًا؟</label><select id="location"><option value="">اختر</option><option value="outside">خارج أستراليا</option><option value="inside">داخل أستراليا</option><option value="other">في وضع آخر أو غير متأكد</option></select></div>
+<div class="question"><label for="age">3. ما فئتك العمرية؟</label><select id="age"><option value="">اختر</option><option value="under18">أقل من 18</option><option value="18-24">18–24</option><option value="25-34">25–34</option><option value="35-44">35–44</option><option value="45plus">45 فأكثر</option><option value="prefer">أفضل عدم الإجابة</option></select></div>
+<div class="question"><label for="country">4. ما بلد جنسيتك؟ (اختياري)</label><input id="country" type="text" maxlength="80" placeholder="اكتب الجنسية أو البلد"></div>
+<div class="question" id="qEnglish"><label for="english">5. كيف تصف مستوى الإنجليزية؟</label><select id="english"><option value="">اختر</option><option value="basic">مبتدئ</option><option value="intermediate">متوسط</option><option value="good">جيد أو متقدم</option><option value="test">لدي نتيجة اختبار رسمي</option><option value="unknown">غير متأكد</option></select></div>
+<div class="question hidden" id="qWork"><label for="profession">ما مهنتك وخبرتك؟ (اختياري)</label><input id="profession" type="text" maxlength="120" placeholder="مثال: نجار، ممرض، مهندس — وعدد سنوات الخبرة"></div>
+<div class="question hidden" id="qJobOffer"><label>هل لديك عرض عمل من جهة أسترالية؟</label><div class="options"><label class="option"><input type="radio" name="joboffer" value="yes"> نعم</label><label class="option"><input type="radio" name="joboffer" value="no"> لا</label><label class="option"><input type="radio" name="joboffer" value="unsure"> غير متأكد</label></div></div>
+<div class="question hidden" id="qStudy"><label for="education">ما آخر مستوى دراسي أنهيته؟</label><select id="education"><option value="">اختر</option><option>دون الثانوية</option><option>الثانوية العامة</option><option>معهد أو دبلوم</option><option>بكالوريوس</option><option>دراسات عليا</option><option>غير ذلك</option></select></div>
+<div class="question hidden" id="qFunds"><label>هل لديك قدرة مبدئية على تغطية تكاليف الدراسة والمعيشة؟</label><div class="options"><label class="option"><input type="radio" name="funds" value="yes"> نعم</label><label class="option"><input type="radio" name="funds" value="no"> لا حاليًا</label><label class="option"><input type="radio" name="funds" value="scholarship"> أبحث عن منحة</label><label class="option"><input type="radio" name="funds" value="unsure"> غير متأكد</label></div></div>
+<div class="question hidden" id="qProtection"><label for="protectionPlace">ما الحالة الأقرب لسؤالك؟</label><select id="protectionPlace"><option value="">اختر</option><option value="outside">أنا خارج أستراليا وأبحث عن برنامج إنساني</option><option value="inside">أنا داخل أستراليا وأبحث عن الحماية</option><option value="danger">أحتاج لفهم خيارات السلامة والحماية في وضعي</option><option value="unsure">لست متأكدًا</option></select></div>
+<div class="question hidden" id="qFamily"><label for="relative">من هو قريبك في أستراليا؟</label><select id="relative"><option value="">اختر</option><option value="partner">زوج/زوجة أو شريك</option><option value="parentchild">والد/والدة أو ابن/ابنة</option><option value="sibling">أخ/أخت</option><option value="other">قريب آخر</option><option value="none">لا يوجد قريب حاليًا</option><option value="unsure">غير متأكد من صلة القرابة المناسبة</option></select></div>
+<div class="question hidden" id="qRelativeStatus"><label for="relativeStatus">ما وضع قريبك في أستراليا؟</label><select id="relativeStatus"><option value="">اختر</option><option value="citizen">مواطن أسترالي</option><option value="pr">مقيم دائم</option><option value="temporary">يحمل تأشيرة مؤقتة</option><option value="unknown">لا أعرف</option></select></div>
+<div class="actions"><button type="button" class="btn" id="showResult">اعرض التوجيه الأولي</button><button type="button" class="btn secondary" id="reset">مسح الإجابات</button></div>
+<div id="result" class="result hidden" aria-live="polite"></div>
+</div></div>
 </section>
-
-
-<section class="path-section" id="paths">
-<div class="container">
-
-<div class="section-title">
-<h2>ما الطريق الذي تبحث عنه؟</h2>
-<p>اختر الموضوع الأقرب إلى هدفك.</p>
-</div>
-
-<div class="path-card">
-
-<div class="path-grid">
-
-<a class="path" href="#work">
-<strong>💼 العمل</strong>
-ابحث عن معلومات حول العمل والمهارات والفرص.
-</a>
-
-<a class="path" href="#study">
-<strong>🎓 الدراسة</strong>
-تعرف على الخيارات التعليمية والمنح والمسارات الدراسية.
-</a>
-
-<a class="path" href="#humanitarian">
-<strong>🛡️ الحماية والإنسانية</strong>
-معلومات أولية حول برامج الحماية والبرامج الإنسانية.
-</a>
-
-<a class="path" href="#family">
-<strong>👨‍👩‍👧 العائلة</strong>
-تعرف على المسارات المرتبطة بالعائلة والعلاقات الأسرية.
-</a>
-
-</div>
-
-</div>
-</div>
+<section><h2>كيف تستخدم المنصة؟</h2><div class="cards"><div class="card"><b>1. أجب عن الأسئلة</b><p>قدّم المعلومات التي ترغب بمشاركتها فقط.</p></div><div class="card"><b>2. اقرأ التوجيه الأولي</b><p>ستظهر لك نقاط للبحث والتحقق، وليس قرار أهلية نهائيًا.</p></div><div class="card"><b>3. اطلب متابعة إذا رغبت</b><p>يمكنك إرسال ملخص اختياري عبر واتساب لبدء محادثة.</p></div></div></section>
+<section id="faq" class="faq"><h2>الأسئلة الشائعة</h2>
+<details><summary>هل نتيجة التقييم تعني أنني مؤهل للتأشيرة؟</summary><p>لا. إنها توجيه عام يعتمد على إجاباتك المحدودة. الأهلية تتوقف على شروط التأشيرة الحالية والوثائق والتفاصيل الكاملة، والقرار للجهة الحكومية المختصة.</p></details>
+<details><summary>هل أحتاج إلى دفع المال لاستخدام التقييم؟</summary><p>لا، التقييم الأولي على هذه الصفحة مجاني. لا تدفع لأي جهة قبل فهم الخدمة المقدمة والتحقق من مؤهلاتها وشروطها.</p></details>
+<details><summary>هل تُرسل إجاباتي تلقائيًا؟</summary><p>لا تُرسل هذه الصفحة إجاباتك إلى خادم. إذا ضغطت على زر واتساب في النتيجة، ستفتح محادثة برسالة تحتوي على ملخص التقييم لتراجعه قبل الإرسال.</p></details>
+<details><summary>هل يمكن لأي شخص أن يتقاضى مالًا مقابل تقديم نصيحة هجرة أسترالية؟</summary><p>لا. توجد قواعد أسترالية تحدد من يجوز له تقديم مساعدة الهجرة المدفوعة. تحقّق من القواعد الرسمية ومن تسجيل مقدم الخدمة قبل شراء أي خدمة.</p></details>
+<details><summary>هل يمكن ضمان الحصول على تأشيرة؟</summary><p>لا ينبغي لأحد أن يضمن صدور التأشيرة. احذر من وعود القبول المضمون أو تسريع المعاملة مقابل المال.</p></details>
 </section>
-
-
-<section id="work">
-<div class="container">
-
-<div class="section-title">
-<h2>💼 العمل</h2>
-<p>إذا كان هدفك العمل في أستراليا.</p>
-</div>
-
-<div class="card-grid">
-
-<div class="card">
-<h3>المهارات والخبرة</h3>
-<p>نوع المهنة والخبرة والمؤهلات يمكن أن تكون عوامل مهمة في تحديد الخيارات المناسبة.</p>
-</div>
-
-<div class="card">
-<h3>صاحب العمل</h3>
-<p>بعض المسارات تعتمد على وجود صاحب عمل أو جهة راعية وفق الشروط المعمول بها.</p>
-</div>
-
-<div class="card">
-<h3>اللغة والمؤهلات</h3>
-<p>قد تكون اللغة الإنجليزية والمؤهلات المهنية أو الأكاديمية جزءًا من متطلبات بعض المسارات.</p>
-</div>
-
-</div>
-</div>
-</section>
-
-
-<section id="study" class="path-section">
-<div class="container">
-
-<div class="section-title">
-<h2>🎓 الدراسة</h2>
-<p>لمن يفكر في الدراسة أو تطوير مؤهلاته.</p>
-</div>
-
-<div class="card-grid">
-
-<div class="card">
-<h3>اختيار الدراسة</h3>
-<p>ابدأ بتحديد التخصص والمؤسسة التعليمية والمستوى الدراسي المناسب.</p>
-</div>
-
-<div class="card">
-<h3>المنح الدراسية</h3>
-<p>بعض المنح والبرامج لها شروط خاصة ومواعيد تقديم محددة.</p>
-</div>
-
-<div class="card">
-<h3>التأشيرة</h3>
-<p>الدراسة والتأشيرة موضوعان مرتبطان لكن لكل منهما متطلبات يجب التحقق منها رسميًا.</p>
-</div>
-
-</div>
-</div>
-</section>
-
-
-<section id="humanitarian">
-<div class="container">
-
-<div class="section-title">
-<h2>🛡️ الحماية والبرامج الإنسانية</h2>
-<p>معلومات حساسة تحتاج إلى دقة وصدق والتحقق من الشروط الرسمية.</p>
-</div>
-
-<div class="notice">
-<strong>مهم جدًا:</strong><br>
-البرامج الإنسانية وبرامج الحماية لها شروط قانونية ومعايير محددة، ولا يعني وجود ظروف صعبة تلقائيًا أن الشخص مؤهل للحصول على تأشيرة أو حماية. يجب تقديم معلومات صحيحة وكاملة والتحقق من المتطلبات الرسمية الحالية.
-</div>
-
-</div>
-</section>
-
-
-<section id="family" class="path-section">
-<div class="container">
-
-<div class="section-title">
-<h2>👨‍👩‍👧 العائلة</h2>
-<p>خيارات مرتبطة بالعلاقات الأسرية تعتمد على نوع العلاقة ووضع أفراد الأسرة.</p>
-</div>
-
-<div class="card-grid">
-
-<div class="card">
-<h3>العلاقات الأسرية</h3>
-<p>نوع العلاقة بين مقدم الطلب وأفراد أسرته يؤثر على المسار الممكن.</p>
-</div>
-
-<div class="card">
-<h3>الوثائق</h3>
-<p>قد تحتاج إلى وثائق تثبت الهوية والعلاقة الأسرية والحالة الشخصية.</p>
-</div>
-
-<div class="card">
-<h3>الشروط</h3>
-<p>الشروط تختلف بحسب البرنامج، لذلك يجب الاعتماد على المعلومات الحكومية الرسمية.</p>
-</div>
-
-</div>
-</div>
-</section>
-
-
-<section>
-<div class="container">
-
-<div class="section-title">
-<h2>كيف تبدأ؟</h2>
-<p>ثلاث خطوات بسيطة.</p>
-</div>
-
-<div class="steps">
-
-<div class="step">
-<div class="number">1</div>
-<h3>حدد هدفك</h3>
-<p>عمل، دراسة، حماية، عائلة أو أنك لا تعرف أي مسار يناسبك.</p>
-</div>
-
-<div class="step">
-<div class="number">2</div>
-<h3>جهّز معلوماتك</h3>
-<p>الهوية، العمر، التعليم، الخبرة، الحالة العائلية وأي معلومات ذات صلة.</p>
-</div>
-
-<div class="step">
-<div class="number">3</div>
-<h3>تحقق ثم تحرك</h3>
-<p>راجع المصادر الرسمية، ثم قرر الخطوة المناسبة لحالتك.</p>
-</div>
-
-</div>
-</div>
-</section>
-
-
-<section>
-<div class="container">
-
-<div class="section-title">
-<h2>❓ أسئلة شائعة</h2>
-</div>
-
-<details class="faq">
-<summary>هل «طريقك إلى أستراليا» جهة حكومية؟</summary>
-<p>لا. الموقع منصة مستقلة للمعلومات والتوجيه الأولي، ولا يمثل الحكومة الأسترالية أو وزارة الداخلية الأسترالية.</p>
-</details>
-
-<details class="faq">
-<summary>هل التواصل معكم يعني أنني سأحصل على تأشيرة؟</summary>
-<p>لا. لا يمكن لأي جهة أن تضمن نتيجة طلب التأشيرة. القرار يخضع للقوانين والمعايير والإجراءات الرسمية.</p>
-</details>
-
-<details class="faq">
-<summary>هل أستطيع معرفة المسار المناسب لي؟</summary>
-<p>يمكنك البدء بتحديد هدفك ووضعك الأساسي، ثم مراجعة المعلومات الرسمية المتعلقة بالمسار المحتمل.</p>
-</details>
-
-<details class="faq">
-<summary>هل يجب أن أملك جواز سفر؟</summary>
-<p>متطلبات الوثائق تختلف حسب نوع الطلب. يجب التحقق من المتطلبات الخاصة بالمسار الذي تفكر فيه.</p>
-</details>
-
-</div>
-</section>
-
-
-<section class="sources">
-<div class="container">
-
-<div class="section-title">
-<h2>🔗 المصادر الرسمية</h2>
-<p>استخدم المصادر الحكومية للتحقق من المعلومات الحالية.</p>
-</div>
-
-<div class="source-list">
-
-<a class="source" href="https://immi.homeaffairs.gov.au/" target="_blank" rel="noopener">
-<strong>🇦🇺 وزارة الداخلية الأسترالية</strong>
-المعلومات الرسمية عن التأشيرات والهجرة.
-</a>
-
-<a class="source" href="https://www.homeaffairs.gov.au/" target="_blank" rel="noopener">
-<strong>🏛️ Department of Home Affairs</strong>
-الموقع الرسمي لوزارة الداخلية الأسترالية.
-</a>
-
-<a class="source" href="https://www.studyinaustralia.gov.au/" target="_blank" rel="noopener">
-<strong>🎓 Study Australia</strong>
-معلومات رسمية عن الدراسة في أستراليا.
-</a>
-
-</div>
-
-</div>
-</section>
-
-
-<section class="contact">
-<div class="container">
-
-<div class="section-title">
-<h2>هل لا تعرف من أين تبدأ؟</h2>
-<p>اشرح لنا هدفك ووضعك بشكل مختصر، وسنساعدك على فهم المعلومات التي تحتاج إلى البحث عنها.</p>
-</div>
-
-<a class="whatsapp" href="https://wa.me/963931488217?text=مرحباً، أريد الاستفسار عن الخيارات المتاحة لي في أستراليا">
-📱 تواصل معنا عبر واتساب
-</a>
-
-</div>
-</section>
-
+<section id="sources"><h2>المصادر الرسمية</h2><p class="intro">تحقق دائمًا من الشروط الحالية على المواقع الحكومية. الروابط التالية تفتح مواقع خارجية.</p><div class="source-list"><a href="https://immi.homeaffairs.gov.au/" target="_blank" rel="noopener">وزارة الداخلية الأسترالية</a><a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing" target="_blank" rel="noopener">قائمة التأشيرات الرسمية</a><a href="https://immi.homeaffairs.gov.au/help-support/who-can-help-with-your-application/using-a-migration-agent" target="_blank" rel="noopener">من يحق له تقديم مساعدة الهجرة؟</a><a href="https://www.mara.gov.au/" target="_blank" rel="noopener">هيئة تسجيل وكلاء الهجرة OMARA</a><a href="https://www.studyaustralia.gov.au/" target="_blank" rel="noopener">الدراسة في أستراليا</a></div></section>
+<section id="contact" class="contact"><h2>هل تريد مناقشة وضعك؟</h2><p>ابدأ برسالة توضّح هدفك، ويمكنك مشاركة ملخص التقييم إن رغبت.</p><a class="btn" id="contactButton" href="https://wa.me/963931488217?text=مرحباً، أريد الاستفسار عن الخيارات المتاحة لي في أستراليا" target="_blank" rel="noopener">تواصل عبر واتساب</a><p class="legal">الموقع مستقل ولا يمثل الحكومة الأسترالية أو وزارة الداخلية. لا نقدم ضمانات بشأن التأشيرات. أي خدمة مدفوعة يجب أن تكون ضمن الحدود القانونية المناسبة.</p></section>
 </main>
-
-
-<footer>
-<div class="footer-title">طريقك إلى أستراليا 🇦🇺</div>
-
-<div>
-منصة معلومات وتوجيه أولي مستقلة.
-</div>
-
-<div style="margin-top:10px">
-المعلومات المنشورة لا تشكل ضمانًا للحصول على تأشيرة أو قبول أي طلب.
-يجب التحقق دائمًا من المصادر الحكومية الرسمية.
-</div>
-
-<div style="margin-top:15px">
-© 2026 طريقك إلى أستراليا
-</div>
-</footer>
-
-
-<a class="float-whatsapp" href="https://wa.me/963931488217?text=مرحباً، أريد الاستفسار عن أستراليا">
-واتساب
-</a>
-
-</body>
-  </html>
+<footer>© طريقك إلى أستراليا — منصة معلومات وتوجيه أولي مستقلة<br><a class="backtop" href="#top">العودة إلى أعلى الصفحة ↑</a></footer>
+<a class="whatsapp" href="https://wa.me/963931488217?text=مرحباً، أريد الاستفسار عن أستراليا" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب">واتساب</a>
+<script>
+(()=>{
+const $=id=>document.getElementById(id);const ids=['qWork','qJobOffer','qStudy','qFunds','qProtection','qFamily','qRelativeStatus'];
+const goal=$('goal');
+function setGoal(value){goal.value=value||'';updateFields();$('assessment').scrollIntoView({behavior:'smooth',block:'start'});}
+function updateFields(){const g=goal.value;ids.forEach(id=>$(id).classList.add('hidden'));if(g==='work'){['qWork','qJobOffer'].forEach(id=>$(id).classList.remove('hidden'));}if(g==='study'){['qStudy','qFunds'].forEach(id=>$(id).classList.remove('hidden'));}if(g==='humanitarian')$('qProtection').classList.remove('hidden');if(g==='family'){['qFamily','qRelativeStatus'].forEach(id=>$(id).classList.remove('hidden'));}const n= g==='work'?7:g==='study'?7:g==='humanitarian'?6:g==='family'?7:5;$('progressBar').style.width=(n/7*100)+'%';$('result').classList.add('hidden');}
+document.querySelectorAll('[data-goal]').forEach(el=>el.addEventListener('click',()=>setGoal(el.dataset.goal)));goal.addEventListener('change',updateFields);
+function radio(name){const e=document.querySelector('input[name="'+name+'"]:checked');return e?e.value:''}
+function buildResult(){const g=goal.value,loc=$('location').value,age=$('age').value;if(!g||!loc||!age){alert('من فضلك اختر الهدف ومكان الإقامة والفئة العمرية على الأقل.');return;}
+let title='تحتاج حالتك إلى تحديد الهدف بشكل أوضح',summary='بما أنك غير متأكد من المسار، ابدأ بتحديد الهدف الأقرب ثم تحقق من الشروط الرسمية قبل اتخاذ أي قرار.',todo=['تحديد الهدف الرئيسي والموعد المتوقع للانتقال إن وجد','جمع معلومات صحيحة عن العمر والتعليم والخبرة والوثائق','مقارنة المعلومات بالمصادر الحكومية الرسمية'],links=[['قائمة التأشيرات الرسمية','https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing']];
+if(g==='work'){title='العمل: افحص المهنة والخبرة وخيار صاحب العمل';summary='قد يستحق مسار العمل البحث إذا كانت مهنتك وخبرتك ومؤهلاتك وشروط اللغة مناسبة لأحد المسارات المتاحة. وجود عرض عمل قد يغير الخيارات، لكنه لا يضمن التأشيرة.';todo=['تحديد المسمى المهني الدقيق والمهام الفعلية','التحقق من متطلبات المهنة والتقييم المهني واللغة بحسب المسار','توضيح ما إذا كان لديك عرض عمل ومن هو صاحب العمل'];if($('profession').value.trim())todo.push('المهنة/الخبرة التي ذكرتها: '+$('profession').value.trim());if(radio('joboffer')==='yes')todo.push('التحقق من أهلية صاحب العمل وشروط الترشيح أو الرعاية');links=[['خيارات تأشيرات العمل والرعاية','https://immi.homeaffairs.gov.au/visas/working-in-australia'],['قائمة التأشيرات الرسمية','https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing']];}
+if(g==='study'){title='الدراسة: افحص القبول والتمويل واللغة';summary='قد يكون مسار الدراسة مناسبًا للاستكشاف إذا توفرت مؤسسة تعليمية مناسبة والقبول ومتطلبات اللغة والقدرة المالية أو منحة. هذه النتيجة لا تعني أن تأشيرة الطالب ستُمنح.';todo=['تحديد البرنامج والمؤسسة التعليمية المعتمدة','التحقق من متطلبات القبول واللغة والتأمين','حساب الرسوم والمعيشة وإثبات القدرة المالية أو البحث عن منحة'];if($('education').value)todo.push('المستوى الدراسي الذي اخترته: '+$('education').value);if(radio('funds')==='scholarship')todo.push('البحث عن منح رسمية والتحقق من شروط كل منحة');links=[['تأشيرة الطالب الرسمية','https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500'],['الدراسة في أستراليا','https://www.studyaustralia.gov.au/']];}
+if(g==='humanitarian'){const p=$('protectionPlace').value;title='الحماية والإنسانية: حدّد المسار بحسب مكان وجودك';summary='مسارات الحماية داخل أستراليا تختلف عن برامج اللاجئين والإنسانية خارجها. التفاصيل الشخصية ومكان وجودك وأسباب الخطر وأي مقترح مؤهل قد تؤثر على المسار، ولا يمكن حسم الأهلية بهذا الاختبار.';todo=['تحديد مكان وجودك الحالي والبلد الذي تحمل جنسيته','كتابة تسلسل الوقائع والمخاطر بدقة والاحتفاظ بالوثائق المتاحة بأمان','التحقق من المتطلبات الرسمية للمسار ذي الصلة وطلب مساعدة مؤهلة عند الحاجة'];if(p==='outside')todo.push('أنت خارج أستراليا: راجع فئات البرنامج الإنساني الخارجية وشروط المقترح لكل فئة');if(p==='inside')todo.push('أنت داخل أستراليا: راجع المعلومات الرسمية الخاصة بطلب الحماية داخل أستراليا');links=[['البرنامج الإنساني واللاجئون','https://immi.homeaffairs.gov.au/what-we-do/refugee-and-humanitarian-program'],['معلومات تأشيرات الحماية','https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/protection-866']];}
+if(g==='family'){title='العائلة: افحص صلة القرابة ووضع القريب';summary='خيارات العائلة تختلف كثيرًا حسب صلة القرابة ووضع الشخص في أستراليا وعمر مقدم الطلب وظروف الأسرة. بعض أنواع القرابة لا تتيح مسارًا مباشرًا، لذلك يجب التحقق من الفئة المحددة.';todo=['تحديد صلة القرابة القانونية بدقة','التحقق من جنسية القريب أو إقامته ونوع التأشيرة التي يحملها','مراجعة شروط الفئة العائلية المحددة قبل دفع أي رسوم'];if($('relative').value==='sibling'||$('relative').value==='other')todo.push('الأخوة والأقارب الآخرون لا يملكون دائمًا مسارًا مباشرًا؛ يلزم فحص الشروط الخاصة');links=[['خيارات تأشيرات العائلة','https://immi.homeaffairs.gov.au/what-we-do/family-migration-program/visa-options'],['قائمة التأشيرات الرسمية','https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing']];}
+const locText=loc==='inside'?'داخل أستراليا':loc==='outside'?'خارج أستراليا':'غير محدد بدقة';const ageText=age==='under18'?'أقل من 18':age==='18-24'?'18–24':age==='25-34'?'25–34':age==='35-44'?'35–44':age==='45plus'?'45 فأكثر':'لم يذكر';const english=$('english').value;const country=$('country').value.trim();
+let html='<h3>نتيجتك الأولية: '+title+'</h3><p>'+summary+'</p><p><b>المعلومات التي سجلتها:</b> '+locText+'؛ الفئة العمرية: '+ageText+(country?'؛ الجنسية/البلد: '+escapeHtml(country):'')+'.</p><b>ما الذي يستحق التحقق منه؟</b><ul>'+todo.map(x=>'<li>'+escapeHtml(x)+'</li>').join('')+'</ul>';
+if(english)html+='<p class="small">مستوى الإنجليزية الذي اخترته: '+escapeHtml(({basic:'مبتدئ',intermediate:'متوسط',good:'جيد أو متقدم',test:'لدي نتيجة اختبار رسمي',unknown:'غير متأكد'})[english]||english)+'. المتطلبات تختلف بحسب المسار.</p>';
+html+='<b>مصادر رسمية للبدء:</b><ul>'+links.map(x=>'<li><a href="'+x[1]+'" target="_blank" rel="noopener">'+x[0]+'</a></li>').join('')+'</ul><p class="small">هذا توجيه عام فقط، وليس تقييم أهلية قانونيًا أو وعدًا بالقبول. راجع الشروط الحالية لدى الحكومة الأسترالية، واستعن بمختص مخوّل عند الحاجة.</p><div class="actions"><button type="button" class="btn" id="sendSummary">ناقش نتيجتي عبر واتساب</button><button type="button" class="btn secondary" id="editAnswers">عدّل إجاباتي</button></div>';
+const r=$('result');r.innerHTML=html;r.classList.remove('hidden');$('sendSummary').addEventListener('click',()=>{const msg='مرحباً، أريد مناقشة التوجيه الأولي من موقع طريقك إلى أستراليا.\nالهدف: '+goal.options[goal.selectedIndex].text+'\nالمكان: '+locText+'\nالفئة العمرية: '+ageText+'\n'+(country?'الجنسية/البلد: '+country+'\n':'')+'أرغب بمعرفة ما إذا كانت هناك خدمة مناسبة ومسموح تقديمها قانونيًا لحالتي.';window.open('https://wa.me/963931488217?text='+encodeURIComponent(msg),'_blank','noopener');});$('editAnswers').addEventListener('click',()=>{$('result').classList.add('hidden');$('assessment').scrollIntoView({behavior:'smooth'});});r.scrollIntoView({behavior:'smooth',block:'start'});
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+$('showResult').addEventListener('click',buildResult);$('reset').addEventListener('click',()=>{document.querySelectorAll('input').forEach(e=>{if(e.type==='radio'||e.type==='checkbox')e.checked=false;else e.value='';});document.querySelectorAll('select').forEach(e=>e.value='');$('result').classList.add('hidden');updateFields();$('assessment').scrollIntoView({behavior:'smooth'});});updateFields();
+})();
+</script>
+</body></html>
