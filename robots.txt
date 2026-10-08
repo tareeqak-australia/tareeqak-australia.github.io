@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tareeqak-australia.github.io/sitemap.xml
